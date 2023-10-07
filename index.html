@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- css main -->
+  <link rel="stylesheet" href="css/ayoub.css">
+  <!-- css Normalize -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Font google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <!-- sTart header -->
+  <header>
+    <div class="container">
+      <a href="#main" class="logo">Mohda</a>
+      <i class="fa-brands fa-whatsapp fa-shake" style="color: #42e360;"></i>
+
+    </div>
+  </header>
+  <!-- end header -->
+  <!-- start Main -->
+  <div id="main" class="product">
+    <div class="container">
+      <div class="product-img">
+        <div class="big-img">
+          <img class="MainImg" width="100%" src="img/1.png" alt="">
+        </div>
+        <div class="small-img-group">
+          <div class="small-img-col">
+            <img class="small-img" width="100%" src="img/1.png" alt="">
+          </div>
+          <div class="small-img-col">
+            <img class="small-img" width="100%" src="img/2.png" alt="">
+          </div>
+          <div class="small-img-col">
+            <img class="small-img" width="100%" src="img/3.png" alt="">
+          </div>
+          <div class="small-img-col">
+            <img class="small-img" width="100%" src="img/4.png" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="product-detail">
+        <h6>stock unitee-99unitee</h6>
+        <h2>Classic Cotton Comfort: Men's Everyday T-Shirt</h2>
+        <h4>399.00DH</h4>
+        <div class="rate"><a href="#reviews">
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <span>85 Views</span></a>
+        </div>
+        <h5 class="firsth5">2 pieces par : 300,00DH</h5>
+        <h5 class="secondh5">3 pieces par : 350,00DH</h5>
+        <!-- start of quantite -->
+        <form id="firstform">
+          <label for="quantity">Choisissez la quantité:</label>
+          <select id="quantity" name="quantity">
+            <option value="" disabled selected>Choisissez ici</option>
+            <option value="1">1 piece</option>
+            <option value="2">2 pieces</option>
+            <option value="3">3 pieces</option>
+
+            <!-- Add more options as needed -->
+          </select>
+          <input type="button" value="Demander" onclick="scrollToSecondForm()" id="demanderButton">
+          <div id="price-display">
+            <!-- Price will be displayed here -->
+          </div>
+        </form>
+
+        <!-- end of quantite -->
+        <div class="shiping">
+          <div class="livraison">
+            <i class="fas fa-shipping-fast"></i>
+            <span>Livraison tout le maroc</span>
+          </div>
+          <div class="paiment">
+            <i class="fas fa-money-bill"></i>
+            <span>Paiement a reception</span>
+          </div>
+          <div class="technique">
+            <i class="fa-solid fa-headset"></i>
+            <span>Assistance technique 24h/7j</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- END Main -->
+  <a class="flech" href="#description-img"><i class="fas fa-angle-double-down fa-2x"></i></a>
+  <!-- start of part description -->
+  <div class="description-img" id="description-img">
+    <span>
+      <h3>Detaills</h3>
+    </span>
+    <div class="container">
+      <div class="firstdescriptionimg">
+        <div class="image">
+          <img src="img/desc 1.png" srcset="">
+        </div>
+        <div class="description">
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo temporibus nam minus amet cum aliquid
+            aspernatur similique laborum, quis ut maiores distinctio architecto, odio veritatis vel doloremque cumque,
+            facere repellat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, ex est. Esse qui aperiam natus
+            molestias blanditiis hic perferendis dolores tempore eaque, magni eius officiis quaerat? Dolores suscipit
+            dicta quos.</p>
+
+        </div>
+      </div>
+      <hr>
+      </hr>
+      <div class="seconddescriptionimg">
+        <div class="description">
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo temporibus nam minus amet cum aliquid
+            aspernatur similique laborum, quis ut maiores distinctio architecto, odio veritatis vel doloremque cumque,
+            facere repellat.Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, ex est. Esse qui aperiam natus
+            molestias blanditiis hic perferendis dolores tempore eaque, magni eius officiis quaerat? Dolores suscipit
+            dicta quos.</p>
+
+        </div>
+        <div class="image">
+          <img src="img/Desc 2.png" alt="" srcset="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end of part description -->
+  <!--  start part of sliders pictures  -->
+  <!-- 
+    <div class="container">
+    <div class="slider-container">
+        <div class="slider">
+          <img src="img/firstcarsoul.jpg" alt="Image 1">
+          <img src="img/secondcarsoul.jpg" alt="Image 2">
+          <img src="img/mohda.jpg" alt="Image 3">
+        </div>
+        <button class="prev-button">&#60;</button>
+        <button class="next-button">&#62;</button>
+        <div class="slider-dots"></div>
+      </div>
+      </div> -->
+  <!-- /* end part of sliders pictures */ -->
+  <!-- start form -->
+  <div class="form">
+    <div class="container">
+      <h1>essayer a remplir ce formulir pour compliter vos achat <span class="emojie"><i
+            class="fa-regular fa-face-smile fa-shake"></i>
+        </span></h1>
+      <form id="secondform" action="">
+        <div class="form-one">
+          <h5>Information de client</h5>
+          <label for="quantity"></label>
+          <input type="text" id="quantity" name="quantity" placeholder="Quantite" required>
+          <label for="name"></label>
+          <input type="text" id="name" name="name" placeholder="Name" required>
+          <label for="tel"></label>
+          <input type="tel" id="tel" name="tel" placeholder="numero" required>
+          <label for="adresse"></label>
+          <input type="text" id="adresse" name="adresse" placeholder="Adresse">
+          <input class="btn" type="submit" value="Acheter">
+        </div>
+        <div class="form-two">
+          <h3>Checkout</h3>
+          <div>
+            <label for="product-price">Prix du produit:</label>
+            <input type="text" id="product-price" name="product-price" placeholder="Prix du produit" required>
+          </div>
+          <div>
+            <label for="shipping-cost">Frais de livraison:</label>
+            <input class="check" type="text" id="shipping-cost" name="shipping-cost" placeholder="Frais de livraison"
+              required>
+          </div>
+          <div>
+            <label for="total-price">Prix total:</label>
+            <input class="check" type="text" id="total-price" name="total-price" placeholder="Prix total" readonly>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- end form -->
+  <!-- Start of reviews -->
+  <div class="reviews" id="reviews">
+    <span>
+      <h3>Reviews</h3>
+    </span>
+    <div class="container">
+      <div class="box">
+        <img src="img/user.png" alt="">
+        <h3>Client agadir 6</h3>
+        <div class="rate-btn">
+          <div class="rate">
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="far fa-star"></i>
+
+          </div>
+          <a href="https://wa.me/+212632199704">contacter</a>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus
+          quaerat ducimus
+        </p>
+      </div>
+
+      <div class="box">
+        <img src="img/user.png" alt="">
+        <h3>Client inzegan 9</h3>
+        <div class="rate-btn">
+          <div class="rate">
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="far fa-star"></i>
+
+          </div>
+          <a href="https://wa.me/+212642419758">contacter</a>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus
+          quaerat ducimus
+        </p>
+      </div>
+      <div class="box">
+        <img src="img/user.png" alt="">
+        <h3>Client inzegan 10</h3>
+        <div class="rate-btn">
+          <div class="rate">
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="far fa-star"></i>
+
+          </div>
+          <a href="https://wa.me/+212771304915">contacter</a>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus
+          quaerat ducimus
+        </p>
+      </div>
+      <div class="box">
+        <img src="img/user.png" alt="">
+        <h3>Client agadir 17</h3>
+        <div class="rate-btn">
+          <div class="rate">
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="filled fas fa-star"></i>
+            <i class="far fa-star"></i>
+
+          </div>
+          <a href="https://wa.me/+212771304915">contacter</a>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores et reiciendis voluptatum, amet est natus
+          quaerat ducimus
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--end of reviews  -->
+  <!-- Start of Footer -->
+  <footer>
+    <div class="container">
+      <div class="socialmedia">
+        <h6>Sallat</h6>
+        <div class="social-icon">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+        <p>
+          Chez [Nom de votre marque],notre engagement enversl'excellence est inébranlable.Nous nous
+          efforçonscontinuellement d'innover, decréer et de surpasser les attentespour vous offrir des produits etdes
+          expériences de la plus hautequalité."
+        </p>
+      </div>
+
+      <div class="contacts">
+        <div class="contact-detaill">
+          <i class="fa-solid fa-headset"></i>
+          <h6>service client 12/24 H</h6>
+        </div>
+        <div class="contact-detaill">
+          <i class="fa-solid fa-phone-volume"></i>
+          <h6>+212 684-064617<br>
+            +212 610-605231</h6>
+        </div>
+        <div class="contact-detaill">
+          <i class="fa-solid fa-at"></i>
+          <h6>sallat.s.contact@gmail.com</h6>
+        </div>
+      </div>
+
+      <div class="contact-email">
+        <p>
+          Abonnez-vous à notre newsletter et profitez de réductions exclusives sur nos nouveaux produits dès leur
+          sortie !
+        </p>
+        <div class="email">
+          <input type="email" name="email" id="email" placeholder="entrer votre email">
+          <input type="submit" value="Submit">
+        </div>
+      </div>
+    </div>
+    <p class="copyright">made in Morocco by Ouzed <span>&hearts;</span></p>
+  </footer>
+
+
+
+
+
+  <!-- End of footer -->
+  <script src="js/changeimg.js"></script>
+  <script src="js/sliders.js"></script>
+  <script src="js/price.js"></script>
+  <script src="js/scroll.js"></script>
+</body>
+
+</html>
